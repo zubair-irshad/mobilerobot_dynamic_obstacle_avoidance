@@ -1,0 +1,9 @@
+<launch>
+
+
+  <node name="get_object_range" pkg="irshad_navigate_to_goal" type="getObjectRange.py" output="screen">
+  </node>
+  <node name="go_To_Goal" pkg="irshad_navigate_to_goal" type="goToGoal.py" output="screen">
+  </node>
+ 
+</launch>
